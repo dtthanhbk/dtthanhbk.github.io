@@ -79,6 +79,7 @@
 	font-weight: normal;
 	margin-top: 4em;
 	text-transform: uppercase;
+	font-family: "Times New Roman", Times, serif;
 
 }
 .banner .form-horizontal {
@@ -90,9 +91,91 @@
 	margin: 10px;
 }
 
+/********Thong tin khoa hoc **************/
+.hot_course {
+	background: #f2f2f2;
+}
+#title_card {
+	text-transform: uppercase;
+	font-family: "Times New Roman", Times, serif;
+	color: #444;
+
+}
+.information_course {
+	border: 1px solid #dfeded;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	overflow: hidden;
+	background: #fff;
 
 
+}
+.information_course:hover {
+	box-shadow: 1px 2px 5px rgba(0, 0, 0, .7);
+}
+.information_course a {
+	text-decoration: none;
+}
+.title_course {
+	font-weight: 700;
+	font-size: 20px;
+	color: #444;
+	margin-left: 10px;
+	font-family: "Times New Roman", Times, serif;
+}
+.image_course {
+	
+}
+.main_info {
+	height: 200px;
 
+}
+.main_info p {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	padding: 10px;
+	color: #808080;
+	line-height: 1.5;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #2ec866;
+    
+    padding: 0; 
+    margin: 0 10px;
+}
+/******* Cach hoc *************/
+.method_study {
+	margin: 20px 0;
+}
+.learn {
+	text-align: center;
+}
+.learn h5 {
+	color: #444;
+	font-size: 23px;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+
+}
+.learn p {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: #404040;
+	
+
+}
+.method_study h2 {
+	font-family: "Times New Roman", Times, serif;
+	color: #444;
+	margin: 20px 0;
+	font-weight: 700;
+}
+.icon {
+	color: #804000;
+}
 
 
 
