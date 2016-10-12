@@ -1,3 +1,102 @@
+
+/********CSS for mobile********/
+.banner {
+	background-image:  url(../img/banner.png);
+	width: 100%;
+}
+.logo img {
+	width: 40%;
+	margin-top: 10px;
+
+}
+.header_top .test,.header_top .navbar.navbar-default,.header_top .navbar-header {
+	position: static;
+}
+.header_top .mobile {
+	position: relative;
+}
+.header_top .navbar-default {
+	background-color: #fff;
+	 border-color: #fff;
+}
+.navbar-header button.navbar-toggle.collapsed {
+	background-color: #fff;
+	border-color: #fff;
+	position: absolute;
+	top: 0px;
+	right: 0;
+	
+
+}
+.navbar-default .navbar-toggle:hover {
+	position: absolute;
+	top: 0px;
+	right: 0;
+	background-color: #fff;
+	border-color: #fff;
+}
+/*#bs-example-navbar-collapse-1.navbar-collapse.collapse.in {
+	margin-top: 8px;
+	border-color: #2ec866;
+}*/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	margin-top: 8px;
+	border-color: #2ec866;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #444;
+}
+.search-box {
+	display: none;
+}
+ul.nav.navbar-nav li a {
+	color: #444;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+
+}
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:hover  {
+	background-color: #fff;
+	color: #2ec866;
+}
+#bs-example-navbar-collapse-1 ul li .login {
+	width: 30%;
+	background-color: #fff;
+	color: #2ec866;
+	border-color: #2ec866;
+}
+
+#bs-example-navbar-collapse-1 ul li .sign-in {
+	width: 30%;
+	float: right;
+	margin-top: -43px;
+	background-color: #2ec866;
+	color: #fff;
+
+}
+.banner {
+	display: none;
+}
+.hot_course {
+	background: #f2f2f2;
+	margin-top: -18px;
+}
+h2#title_card {
+	text-transform: uppercase;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px) {
+
+
 .header_top .navbar-default {
 	background-color: #fff;
 	 border-color: #fff;
@@ -176,7 +275,7 @@ hr {
 .icon {
 	color: #804000;
 }
-
+}
 
 
 
