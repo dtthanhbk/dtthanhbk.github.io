@@ -248,6 +248,7 @@ hr {
 /******* Cach hoc *************/
 .method_study {
 	margin: 20px 0;
+	height: 360px;
 }
 .learn {
 	text-align: center;
@@ -279,10 +280,13 @@ hr {
 
 .comment {
 	background-image: url(../img/laptop3.jpg);
-	height: 450px;
+	height: 650px;
 
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+#footer {
+	height: 350px;
 }
 
 }
