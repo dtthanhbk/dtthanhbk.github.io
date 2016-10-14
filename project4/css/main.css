@@ -167,9 +167,9 @@ h2#title_card {
 	width: 100%;
 	background-image: url(../img/banner.png);
 	height: 450px;
-	
 	background-repeat: no-repeat;
 	background-size: cover;
+	display: block;
 
 }
 .banner h1 {
@@ -275,6 +275,16 @@ hr {
 .icon {
 	color: #804000;
 }
+
+
+.comment {
+	background-image: url(../img/laptop3.jpg);
+	height: 450px;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 }
 
 
