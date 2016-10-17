@@ -145,6 +145,92 @@
 		margin: 20px 0 10px;
 	}
 
+	.how_learn .icon {
+		text-align: center;
+		display: block;
+		color: #795548;
+		font-size: 12px;
+		margin-top: 30px;
+		margin-bottom: 15px;
+
+	}
+	.learn h5 {
+		text-align: center;
+		font-size: 28px;
+		font-family: "Times New Roman", Times, serif;
+		font-weight: 500;
+
+	}
+	.learn p {
+		font-size: 16px;
+		font-family: "Times New Roman", Times, serif;
+		text-align: left;
+		font-weight: 300;
+		margin-left: 10px;
+
+
+	}
+
+	.comment {
+		background-image: url(../img/laptop3.jpg);
+		background: -webkit-linear-gradient(left,#bd9248,#d28a0f);
+		background-size: cover;
+	}
+
+	.review_item::before {
+		content: '“';
+		font-size: 124px;
+		line-height: 124px;
+		color: #2ec866;
+		position: absolute;
+		left: 36%;
+		top: -17px;
+
+	}
+	.image_student {
+		margin-top: 20px;
+		max-width: 100%;
+		height: auto;
+
+	}
+	.review_text {
+		margin-top: 35px;
+		color: #fff;
+		margin-bottom: 20px;
+		font-size: 16px;
+	}
+	.review_student {
+		padding-bottom: 15px;
+		padding-top: 15px;
+	}
+	.review_student a {
+		font-size: 16px;
+		text-decoration: none;
+	}
+	.review_author {
+		color: #fff;
+	}
+	.submit_review {
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
+	.submit_review p {
+		color: #fff;
+		font-size: 15px;
+	}
+	.submit_review button {
+	display: block;
+    margin: 10px auto;
+    
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: #2ec866;
+    color: #fff;
+	}
+
+
+
+
 
 
 
