@@ -221,11 +221,75 @@
 	.submit_review button {
 	display: block;
     margin: 10px auto;
+    border-color: #2ec866;
     
     text-transform: uppercase;
     padding: 10px;
     background-color: #2ec866;
     color: #fff;
+	}
+
+	#footer {
+		padding-top: 30px;
+		padding-bottom: 30px;
+		text-align: center;
+
+	}
+	#footer h4 {
+		text-transform: uppercase;
+		font-size: 22px;
+		color: #5f5f5f;
+		font-weight: 500;
+	}
+	#footer ul li {
+		list-style-type:  none;
+		text-align: left;
+		padding: 0 0 11px;
+		font-size: 16px;
+		font-weight: 300;
+
+	}
+	#footer ul li a {
+		color: #444;
+	}
+	.fa.fa-facebook-official.fa-5x {
+		color: #3a5795;
+		margin-right: 5px;
+		font-size: 4em;
+	}
+	.fa.fa-youtube-square.fa-5x {
+		color: #E62117;
+		margin-right: 5px;
+		font-size: 4em;
+
+	}
+	.fa.fa-twitter-square.fa-5x {
+		color: #00aced;
+		font-size: 4em;
+	}
+	.contact {
+		text-align: left;
+	}
+	.contact h4 {
+		text-align: center;
+	}
+	.fa.fa-phone-square {
+		color: #8fcc2a;
+		font-size: 3em;
+		margin-right: 10px;
+	}
+	.phone_item {
+		font-size: 16px;
+		font-weight: 300;	
+	}
+	.fa.fa-envelope {
+		font-size: 3em;
+		margin-right: 10px;
+		color: #7ac4e9;
+	}
+	.mail_item {
+		font-size: 16px;
+		font-weight: 300;
 	}
 
 
