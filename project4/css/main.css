@@ -1,9 +1,6 @@
 
 /********CSS for mobile********/
-.banner {
-	background-image:  url(../img/banner.png);
-	width: 100%;
-}
+
 .logo img {
 	width: 40%;
 	margin-top: 10px;
@@ -24,14 +21,17 @@
 	border-color: #fff;
 	position: absolute;
 	top: 0px;
-	right: 0;
+	right: 0px;
 
 }
-.navbar-default .navbar-toggle:hover {
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	background: #FFF;
+}
+.navbar-default .navbar-toggle{
 	position: absolute;
 	top: 0px;
-	right: 0;
-	background-color: #fff;
+	right: 0px;
+	
 	border-color: #fff;
 }
 /*#bs-example-navbar-collapse-1.navbar-collapse.collapse.in {
@@ -63,6 +63,7 @@
 		background-color: #fff;
 		color: #2ec866;
 		border-color: #2ec866;
+		padding: 10px;
 	}
 
 	#bs-example-navbar-collapse-1 ul li .sign-in {
@@ -293,7 +294,68 @@
 	}
 
 
+/*********CSS for Table************/
+	@media screen and (min-width: 768px) {
+		.header_top {
+			height: 170px;
+		}
+		#bs-example-navbar-collapse-1 ul li .login {
+			width: 100%;
+		}
+		#bs-example-navbar-collapse-1 ul li .sign-in {
+			width: 100%;
+			padding: 11px;
+			margin-top: 0;
+		}
+		#bs-example-navbar-collapse-1 ul li:nth-child(5) {
+			margin-right: 25px;
+		}
+		.search-box {
+			display: block;
+			position: relative;
+			top: -140px;
+		}
+		i.fa.fa-search.fa-lg {
+			position: absolute;
+			right: 10px;
+			top: 11px;
+			color: #888;
+		}
+		.banner {
+			width: 100%;
+			background-image: url(../img/banner.png);
+			height: 450px;
+			background-repeat: no-repeat;
+			background-size: cover;
+			display: block;
 
+		}
+		.banner h1 {
+			color: #fff;
+			text-align: center;
+			font-weight: normal;
+			margin-top: 4em;
+			text-transform: uppercase;
+			font-family: "Times New Roman", Times, serif;
+
+		}
+		.form-horizontal .form-control {
+			display: none;
+		}
+		.form-horizontal .btn.btn-success.btn-block {
+			width: 50%;
+			margin: 20px auto;
+		}
+		.form-horizontal button a {
+			color: #fff;
+		}
+		.hot_course .col-sm-4 {
+			height: 415px;
+		}
+
+	}
+		
+	
 
 
 
