@@ -352,6 +352,36 @@
 		.hot_course .col-sm-4 {
 			height: 415px;
 		}
+		.hot_course .main_info {
+			height: 250px;
+		}
+		.image_course .fix {
+			height: 145.83px;
+		}
+		.learn .code,.learn .video {
+			height: 60px;
+		}
+		.comment .image_student img{
+			width: 65%;
+			margin-left: 3em;
+		}
+		.comment .review_student {
+			margin-top: 1em;
+		}
+
+		#footer {
+			padding-bottom: 10em;
+		}
+		.fa.fa-phone-square {
+			font-size: 1.8em;
+		}
+		.fa.fa-envelope {
+			font-size: 1.5em;
+		}
+		.phone_item {
+			display: inline-block;
+			margin-bottom: 1em;
+		}
 
 	}
 		
