@@ -292,6 +292,44 @@
 		font-size: 16px;
 		font-weight: 300;
 	}
+/******CSS for 600px*********/
+/*@media screen and (min-width: 600px) {
+	.hot_course .item_course {
+		width: 50%;
+		float: left;
+	}
+/*	.information_course .main_info {
+		/*height: 250px;*/
+	/*}
+	
+	.comment .image_student img{
+		width: 50%;
+		margin-left: 3em;
+	}
+	.how_learn .learn {
+		width: 33.33%;
+		float: left;
+	}
+	.learn .code,.learn .video {
+			height: 60px;
+		}
+	
+	#footer .col-sm-4 {
+		width: 33.33%;
+		float: left;
+	}
+	.fa.fa-phone-square {
+			font-size: 1.8em;
+		}
+	.fa.fa-envelope {
+			font-size: 1.5em;
+		}
+	.phone_item {
+			display: inline-block;
+			margin-bottom: 1em;
+		}*/
+	
+
 
 
 /*********CSS for Table************/
@@ -358,7 +396,7 @@
 		.image_course .fix {
 			height: 145.83px;
 		}
-		.learn .code,.learn .video {
+		.learn .code,.learn .video,.learn .project {
 			height: 60px;
 		}
 		.comment .image_student img{
@@ -393,7 +431,7 @@
 
 
 
-	@media screen and (min-width: 1024px) {
+	@media screen and (min-width: 992px) {
 
 
 		.header_top .navbar-default {
@@ -401,20 +439,36 @@
 			border-color: #fff;
 		}
 		.header_top .logo .img-responsive{
-			max-height: 50px;
+			width: 100%;
 		}
-
-
-
+		.header_top {
+			height: 120px;
+		}
+		.header_top .test, .header_top .navbar.navbar-default, .header_top .navbar-header{
+			margin-top: 1.5em;
+			font-size: 1em;
+		}
+		.test {
+			padding: 0;
+		}
+		.test .navbar.navbar-default {
+			padding-left: 0.2em;
+		}
 
 		#bs-example-navbar-collapse-1 {
 			margin-top: 16px;
+			padding: 0;
 		}
 		#bs-example-navbar-collapse-1 ul li a {
-			font-size: 15px;
-			font-weight: 700;
+			font-size: 1.5em;
+			font-weight: 500;
 			color: #39424E;
+			padding-right: 1em;
+			
 
+		}
+		.nav>li>a {
+			padding: 0;
 		}
 		#bs-example-navbar-collapse-1 ul li a:hover {
 			color: #2ec866;
@@ -427,12 +481,12 @@
 		#bs-example-navbar-collapse-1 ul li .login {
 			padding: 10px 5px;
 			border-radius: 3px;
-			margin-left: 53px;
-			margin-right: 29px;
+			margin-top: -0.8em;
+			
 			border: 1px solid #2ec866;
 			color: #2ec866;
 			font-weight: normal;
-			width: 50%;
+			
 		}
 		#bs-example-navbar-collapse-1 ul li .login:hover {
 			color: #fff;
@@ -442,6 +496,7 @@
 		#bs-example-navbar-collapse-1 ul li .sign-in {
 			padding: 10px 15px;
 			border-radius: 3px;
+			margin-top: -0.8em;
 			border: 1px solid #2ec866;
 			background-color: #2ec866;
 			color: #fff;
@@ -452,15 +507,19 @@
 			color: #fff;
 			background-color: #1db755;
 		}
+		.search-box {
+			top: 0;
+		}
 		.search-box .form-control {
-			margin-top: 2em;
+			margin-top: 1em;
+			margin-left: 1em;
 			border: 1px solid #2ec866;
 			border-radius: 10px;
 		}
-		.fa-search {
+		i.fa.fa-search.fa-lg {
 			position: absolute;
-			top: 38px;
-			right: 28px;	
+			top: 1.2em;
+			right: 0;	
 		}
 		.banner {
 			width: 100%;
@@ -475,10 +534,13 @@
 			color: #fff;
 			text-align: center;
 			font-weight: normal;
-			margin-top: 4em;
+			margin-top: 3em;
 			text-transform: uppercase;
 			font-family: "Times New Roman", Times, serif;
 
+		}
+		.form-horizontal .form-control {
+			display: block;
 		}
 		.banner .form-horizontal {
 			width: 450px;
