@@ -1,0 +1,17 @@
+.main_content {
+	background-color: #f6f8f8;
+	z-index: 1;
+}
+.course {
+	border: 1px solid #f6f8f8;
+	background: #fff;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+	z-index: 2;
+	padding: 0.25em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	border-radius: 8px;
+	
+	border-top-left-radius: 100px;
+	border-bottom-left-radius: 100px;
+}
