@@ -34,10 +34,7 @@
 	
 	border-color: #fff;
 }
-/*#bs-example-navbar-collapse-1.navbar-collapse.collapse.in {
-	margin-top: 8px;
-	border-color: #2ec866;
-	}*/
+
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
 		margin-top: 8px;
 		border-color: #2ec866;
@@ -81,11 +78,15 @@
 		background: #e9eaea;
 		margin-top: -18px;
 	}
+	.hot_course .item_course {
+		max-width: 350px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 	.hot_course .information_course {
 		margin-left: auto;
 		margin-right: auto;
-		
-		margin-bottom: 3rem;
+		margin-bottom: 3em;
 		box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 		transition: box-shadow .25s;
 	}
@@ -292,48 +293,10 @@
 		font-size: 16px;
 		font-weight: 300;
 	}
-/******CSS for 600px*********/
-/*@media screen and (min-width: 600px) {
-	.hot_course .item_course {
-		width: 50%;
-		float: left;
-	}
-/*	.information_course .main_info {
-		/*height: 250px;*/
-	/*}
-	
-	.comment .image_student img{
-		width: 50%;
-		margin-left: 3em;
-	}
-	.how_learn .learn {
-		width: 33.33%;
-		float: left;
-	}
-	.learn .code,.learn .video {
-			height: 60px;
-		}
-	
-	#footer .col-sm-4 {
-		width: 33.33%;
-		float: left;
-	}
-	.fa.fa-phone-square {
-			font-size: 1.8em;
-		}
-	.fa.fa-envelope {
-			font-size: 1.5em;
-		}
-	.phone_item {
-			display: inline-block;
-			margin-bottom: 1em;
-		}*/
-	
-
 
 
 /*********CSS for Table************/
-	@media screen and (min-width: 768px) {
+	@media screen and (min-width: 768px) and (max-width: 991px) {
 		.header_top {
 			height: 12em;
 		}
@@ -377,6 +340,11 @@
 			font-family: "Times New Roman", Times, serif;
 
 		}
+
+		h2.title_course {
+			display: block;
+			height: 66px;
+		}
 		.form-horizontal .form-control {
 			display: none;
 		}
@@ -386,6 +354,13 @@
 		}
 		.form-horizontal button a {
 			color: #fff;
+		}
+		.hot_course .item_course {
+			max-height: 450px;
+		}
+
+		.information_course .main_info {
+			height: 270px;
 		}
 	
 		
@@ -463,6 +438,9 @@
 		.nav>li>a {
 			padding: 0;
 		}
+			#bs-example-navbar-collapse-1 ul li:nth-child(5) {
+			margin-right: 1em;
+		}
 		#bs-example-navbar-collapse-1 ul li a:hover {
 			color: #2ec866;
 		}
@@ -475,6 +453,7 @@
 			padding: 10px 5px;
 			border-radius: 3px;
 			margin-top: -0.8em;
+			width: 100%;
 			
 			border: 1px solid #2ec866;
 			color: #2ec866;
@@ -494,6 +473,7 @@
 			background-color: #2ec866;
 			color: #fff;
 			font-weight: normal;
+			width: 100%;
 
 		}
 		#bs-example-navbar-collapse-1 ul li .sign-in:hover {
@@ -501,6 +481,7 @@
 			background-color: #1db755;
 		}
 		.search-box {
+			display: block;
 			top: 0;
 		}
 		.search-box .form-control {
@@ -512,7 +493,8 @@
 		i.fa.fa-search.fa-lg {
 			position: absolute;
 			top: 1.2em;
-			right: 0;	
+			right: 1em;	
+			color: #888;
 		}
 		.banner {
 			width: 100%;
@@ -537,12 +519,13 @@
 		}
 		.banner .form-horizontal {
 			width: 450px;
-			height: 40px;
+			
 			margin: 2em auto 0;
 		}
 		.form-horizontal button, input {
-			margin: 10px;
+			margin-bottom: 1em;
 		}
+	
 
 		/********Thong tin khoa hoc **************/
 		.hot_course {
@@ -580,7 +563,7 @@
 
 		}
 		.main_info {
-			height: 200px;
+			height: 21em;
 
 		}
 		.main_info p {
@@ -633,14 +616,43 @@
 
 
 		.comment {
-			background-image: url(../img/laptop3.jpg);
+			
 			height: 650px;
 
 			background-repeat: no-repeat;
 			background-size: cover;
 		}
+		.review_text {
+			margin-top: 10em;
+		}
+		.image_student {
+			margin-top: 9em;
+		}
+		.review_item::before {
+			margin-top: 0.5em;
+		}
+		.submit_review p {
+			margin-top: 1em;
+			font-size: 18px;
+		}
+		.submit_review button {
+			margin-top: 4em;
+
+		}
 		#footer {
-			height: 350px;
+			height: 20em;
+		}
+		.fa.fa-facebook-official.fa-5x {
+			margin-left: -1em;
+		}
+		#footer h4 {
+			margin-bottom: 1em;
+		}
+		.fa.fa-phone-square {
+			margin-left: 1em;
+		}
+		.fa.fa-envelope {
+			margin-left: 1em;
 		}
 
 	}
